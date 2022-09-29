@@ -7,6 +7,40 @@ body{
 .doboz{
     margin-left: 300px;
     margin-right: 300px;
-    background-color: white;
-
+    background-color:lightgray;
+    text-align: left;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.egy{
+    font-size: 60px;
+}
+.nincs{
+    opacity: 0;
+}
+.lap{
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color:white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+p{
+    font-size: 20px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+mark{
+    background-color: red;
+    font-size: 50px;
+    color:white
+}
+li{
+    font-size: 20px;
 }
