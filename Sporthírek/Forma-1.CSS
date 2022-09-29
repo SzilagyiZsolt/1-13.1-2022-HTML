@@ -44,3 +44,17 @@ mark{
 li{
     font-size: 20px;
 }
+.jumbotron{
+    display:table;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.jumbotron2{
+    
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
