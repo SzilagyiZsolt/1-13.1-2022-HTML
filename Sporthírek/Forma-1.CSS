@@ -1,0 +1,12 @@
+.ks{
+    background-color:red; color:rgb(0, 0, 0); height:200px; text-align: center;
+}
+body{
+    background-color: lightskyblue;
+}
+.doboz{
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: white;
+
+}
