@@ -5,13 +5,14 @@ body{
     background-color: lightskyblue;
 }
 .doboz{
-    margin-left: 300px;
-    margin-right: 300px;
     background-color:lightgray;
-    text-align: left;
     border-radius: 10px;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    min-width: 648px;
+    max-height: 377px;
+    margin-left: 308px;
 }
 .egy{
     font-size: 60px;
@@ -27,6 +28,7 @@ body{
     padding-left: 10px;
     padding-top: 2px;
     padding-bottom: 2px;
+    max-height: 3375px;
 }
 p{
     font-size: 20px;
@@ -51,10 +53,11 @@ li{
     padding-top: 2px;
     padding-bottom: 2px;
 }
-.jumbotron2{
-    
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+.x{
+    margin-right: 300px;
+    min-width: 648px;
+    max-height: 377px;
+}
+html{
+    justify-content: center;
 }
