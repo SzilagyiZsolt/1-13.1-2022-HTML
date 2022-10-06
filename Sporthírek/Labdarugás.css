@@ -1,0 +1,125 @@
+.első{
+    height: auto;
+    width: 300px;
+    margin-right: 50px;
+}
+.elsőhír{
+    width: auto;
+    height: auto;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.első-kép{
+    background-image: url(https://img.a.transfermarkt.technology/portrait/big/39106-1628597308.jpg?lm=1);
+    width: 300px;
+    height: 390px;
+
+}
+.alap1{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-left: 300px;
+    margin-right: 300px;
+    justify-content: center;
+}
+.második-kép{
+    background-image: url(https://play-lh.googleusercontent.com/fXUgYWYQt-ziVXYTinJjmTzZEf_j0SKAbbRWrDvXGmqCdOgqmW_zS-V29ax51z8uwMs);
+    height: 512px;
+    width: 512px;
+}
+.második{
+    height: auto;
+    width: 512px;
+}
+.első-szöveg{
+    background-color: white;
+    height: auto;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.második-szöveg{
+    background-color: white;
+    height: 315px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.harmadik-kép{
+    background-image: url(https://nagyerdeistadion.hu/assets/images/logos/temp.jpg);
+    height: 430px;
+    width: 644px;
+}
+.harmadik{
+    height: auto;
+    width: 644px;
+}
+.harmadik-szöveg{
+    background-color: white;
+    height: auto;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.alap2{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-left: 300px;
+    margin-right: 300px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.negyedik-kép{
+    background-image: url(https://static.korkep.sk/2018/08/twitter-620x620.jpg);
+    width: 280px;
+    height: 180px;
+}
+.negyedik{
+    height: auto;
+    width: 620px;
+    margin-left: 50px;
+}
+.negyedik-szöveg{
+    background-color: white;
+    height: auto;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.alap3{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-left: 300px;
+    margin-right: 300px;
+    justify-content: center;
+}
+.ötödik-kép{
+    background-image: url(http://sportsmarketing.hu/wp-content/uploads/2010/07/a-vb-trofea.jpg);
+    width: 380px;
+    height: 600px;
+    
+}
+.ötödik-szöveg{
+    background-color: white;
+    height: auto;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.ötödik{
+    height: auto;
+    width: 620px;
+    margin-left: 50px;
+}
+body{
+    background-image: url(https://www.nemzetisport.hu/static/style/nso/2012/img/nso_site_bg_opt.jpg);
+}
