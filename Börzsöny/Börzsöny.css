@@ -8,7 +8,7 @@ h1{
 p{
     color: #002200;
 }
-div{
+.alap{
     width: 640px;
     height: 1440px;
     margin-left: auto;
@@ -16,4 +16,23 @@ div{
 }
 .bent{
     margin-left: 40px;
+}
+.kép{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.jobb{
+    max-height: 120px;  
+    display: flex;
+}
+.kép3{
+    height: 100px;
+    width: 150px;
+}
+div{
+    width: 640px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
