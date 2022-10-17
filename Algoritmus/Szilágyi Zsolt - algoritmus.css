@@ -1,0 +1,13 @@
+.szöveg{
+    width: auto;
+    height: 840px;
+}
+.bent{
+    margin-left: 39px;
+}
+h1{
+    margin-left: 100px;
+}
+p, h1, h3, dd, dt, li{
+    color:darkred
+}
