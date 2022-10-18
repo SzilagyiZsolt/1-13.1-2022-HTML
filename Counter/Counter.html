@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Author" content="Szilágyi Zsolt">
+    <meta name="keyword" content="">
+    <meta name="discription" content="">
+    <title>számlálók használata</title>
+    <style>
+        body{
+            counter-reset: szamlalo;
+        }
+        p::before{
+            counter-increment: szamlalo;
+            content: "Bekezdés " counter(szamlalo) ". ";
+        }
+    </style>
+</head>
+<body>
+    <p>A bekezdés szövege...</p>
+    <p>A bekezdés szövege...</p>
+    <p>A bekezdés szövege...</p>
+</body>
+</html>

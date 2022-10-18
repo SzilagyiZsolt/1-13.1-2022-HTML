@@ -1,0 +1,21 @@
+body{
+    counter-reset: h1_ct;
+}
+h1{
+    counter-reset: h2_ct;
+}
+h1:before{
+    counter-increment: h1_ct;
+    content: counter(h1_ct) ". ";
+}
+h2{
+    counter-reset: h3_ct;
+}
+h2:before{
+    counter-increment: h2_ct;
+    content: counter(h1_ct) ". " counter(h2_ct) " ";
+}
+h3:before{
+    counter-increment: h3_ct;
+    content: counter(h1_ct) ". " counter(h2_ct) ". " counter(h3_ct) " ";
+}

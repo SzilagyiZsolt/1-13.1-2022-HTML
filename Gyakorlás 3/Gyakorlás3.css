@@ -1,0 +1,50 @@
+body {
+    margin: 0px auto;
+    max-width: 1000px;
+}
+header {
+    display: block;  
+    padding: 20px;
+    text-align: center;
+    background-color:bisque ;
+}
+article {
+    margin: 15px;
+    display: block;
+    padding: 15px;
+}
+nav {
+    display: block;
+    float: left;
+    width: 25%;
+    background-color: blueviolet;
+}
+nav a:link {
+      display: block;
+      height: 15px;
+      padding: 10px;
+      padding-left: 10px;
+}
+#content-holder{
+      background-color: #b3b3b3;
+}
+aside{
+    display: block;
+    width: 20%;
+    float: right;
+    padding: 10px;
+    font-size: 12px;
+}
+section {
+    width: 50%;
+    display:block;
+    float: left;
+    background-color: coral;
+}
+footer {
+    clear: both;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    background-color: cadetblue;
+}
