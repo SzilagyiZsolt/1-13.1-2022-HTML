@@ -11,23 +11,62 @@
 
 
 <style type="text/css">
-#demo {background-color:black;}.
+#demo {background-color:black;}
+img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.dbot{
+	display:flex;
+	text-align: center;
+}
+.gec{
+	margin-left: 20px;
+}
+.video{
+	margin-left: 20px;
+	width: 480px;
+	height: 260px;
+	text-align: right;
+}
+.video2{
+	width: 480px;
+	height: 260px;
+}
+.dbot2{
+	display: flex;
+}
 </style>
-
-<!--[if gte mso 9]><xml>
-<mso:CustomDocumentProperties>
-<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Kov·cs Attila RÛbert</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
-<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
-<mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
-<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Kov·cs Attila RÛbert</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
-<mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
-<mso:ContentTypeId msdt:dt="string">0x01010031B144843672234F8086692194B825C5</mso:ContentTypeId>
-<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
-<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
-</mso:CustomDocumentProperties>
-</xml><![endif]-->
 </head>
 <body>
+	<div id="demo" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ul class="carousel-indicators">
+		<li data-target="#demo" data-slide-to="0" class="active"></li>
+		<li data-target="#demo" data-slide-to="1"></li>
+		<li data-target="#demo" data-slide-to="2"></li>
+		</ul>
+		<!-- The slideshow -->
+		<div class="carousel-inner">
+		<div class="carousel-item active">
+		<img src="k√©pek/Los Angeles.webp" alt="Los Angeles" width="50%">
+		</div>
+		<div class="carousel-item">
+		<img src="k√©pek/Chicago.webp" alt="Chicago" width="50%">
+		</div>
+		<div class="carousel-item">
+		<img src="k√©pek/New York.webp" alt="New York" width="50%">
+		</div>
+		</div>
+		<!-- Left and right controls -->
+		<a class="carousel-control-prev" href="#demo" data-slide="prev">
+		<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a class="carousel-control-next" href="#demo" data-slide="next">
+		<span class="carousel-control-next-icon"></span>
+		</a>
+		</div>
 
 <div class="container-fluid">
 <div class="row">
@@ -36,27 +75,41 @@
 	</div>
 	
 </div>
-
-<div class="row">
-	<div class="col">
-		
-			<h4>Gipsz Jakab <small><i>(ELTE IK)</i></small></h4>
-			<p>Aenean id elit arcu. Pellentesque nunc purus, aliquet tincidunt leo quis, interdum feugiat ligula. In lacus dui, tempor ut augue et, viverra elementum leo. Aenean sed consequat nibh. Cras vulputate iaculis placerat. </p>
+<div class="dbot">
+	<div>
+		<div class="media border p-3">
+			<img src="k√©pek/kep4.jpg" alt="John Doe" class="mr-3 mt-3 
+			rounded-circle" style="width:60px;">
+			<div class="media-body">
+				<h4>Gipsz Jakab<small><i>(ELTE IK)
+				</i></small></h4>
+				<p>Aenean id elit arcu. Pellentesque nunc purus, aliquet tincidunt leo quis, interdum feugiat ligula. In lacus dui, tempor ut augue et, viverra elementum leo. Aenean sed consequat nibh. Cras vulputate iaculis placerat. </p>
+			</div>
+		</div>		
+		</div>
+		<div class="dbot2">
+		<iframe class="embed-responsive-item , video2" src="https://www.youtube.com/embed/9cKsq14Kfsw" ></iframe>
+		<iframe class="embed-responsive-item6 , video" src="https://www.youtube.com/embed/hnCmSXCZEpU"></iframe>
+		</div>
+	<div>
+		<div class="media border p-3 , gec">
+			<img src="k√©pek/kep6.jpg" alt="John Doe" class="mr-3 mt-3 
+			rounded-circle" style="width:60px;">
+			<div class="media-body">
+				<h4>Gipsz Jen≈ë<small><i>(ELTE IK)
+				</i></small></h4>
+				<p>Cras nec congue leo, sit amet placerat urna. Pellentesque nisi velit, dictum eu odio non, pretium lobortis ex. Curabitur ac mattis augue. Nam ullamcorper turpis vitae egestas cursus. </p>
+			</div>
+		</div>
 		
 	</div>
-	<div class="col">
-		
-			<h4>Gipsz Jen≈ë <small><i>(ELTE IK)</i></small></h4>
-			<p>Cras nec congue leo, sit amet placerat urna. Pellentesque nisi velit, dictum eu odio non, pretium lobortis ex. Curabitur ac mattis augue. Nam ullamcorper turpis vitae egestas cursus.
-			</p>
-		  </div>
 </div>
 
 <div class="row">
   
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9cKsq14Kfsw" ></iframe>
+    
 
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hnCmSXCZEpU"></iframe>
+    
  
 </div>
 
